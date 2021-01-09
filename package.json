@@ -1,0 +1,7 @@
+{
+  "name": "netlify-passport-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Naga Chaitanya Konada <nagachaitanya.konada@servicenow.com>",
+  "license": "MIT"
+}
