@@ -7,5 +7,15 @@
 </head>
 <body>
     <h1>Hello World from Netlify Functions Auth0</h1>
+    <a href="/api/express-demo/login">Login</a>
+    <a href="/api/express-demo/status" target="_blank">Status</a>
+    <a href="/api/express-demo/logout" target="_blank">Logout</a>
+    <a href="#" id="reload">Reload</a>
+    <script>
+        var reload = document.querySelector('#reload');
+        reload.onclick=function () {
+            window.location.reload();
+        }
+    </script>
 </body>
 </html>
