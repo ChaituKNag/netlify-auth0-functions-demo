@@ -60,7 +60,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(passport.initialize());
-app.use('/api/express-demo/', router);
+app.use('/api/express-demo', router);
 
 module.exports = app;
 module.exports.handler = serverless(app);
